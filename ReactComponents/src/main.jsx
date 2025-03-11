@@ -1,7 +1,10 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import { BrowserRouter, Routes, Route } from "react-router";
-import SideMenu from './Components/SideMenu'
+import SideMenu from './Components/NavBars/SideMenu'
+import HomePage from '../src/Components/Pages/HomePage'
+import SettingsPage from '../src/Components/Pages/SettingsPage'
+import './index.css';
 
 const root = document.getElementById("root");
 
@@ -9,6 +12,8 @@ ReactDOM.createRoot(root).render(
   <BrowserRouter>
     <Routes>
       <Route path="/" element={<SideMenu />} />
+      <Route path="/homepage" element={<HomePage/>}></Route>
+      <Route path="/settingspage" element={<SettingsPage/>}></Route>
     </Routes>
   </BrowserRouter>
 );
