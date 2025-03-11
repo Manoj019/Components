@@ -17,13 +17,13 @@ function SideMenu() {
         <button onClick={() => handleNavigate('/homepage')}>
           <img src={homeIcon} alt="Home" className='icons' />
         </button>
-        <button onClick={() => handleNavigate('/messagepage')}>
+        <button onClick={() => handleNavigate('/sendmessage')}>
           <img src={messageIcon} alt="Messages" className='icons'/> 
         </button>
         <button onClick={() => handleNavigate('/searchpage')}>
           <img src={searchIcon} alt="Search" className='icons'/> 
         </button>
-        <button onClick={() => handleNavigate('/contact page')}>
+        <button onClick={() => handleNavigate('/contactpage')}>
           <img src={contactIcon} alt="Contact" className='icons'/> 
         </button>
         <button onClick={() => handleNavigate('/settingspage')}>
