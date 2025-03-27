@@ -18,3 +18,13 @@
     height: 35px;
    
 }
+#dropdown{
+background-color: rgb(25, 117, 204);
+border-radius: 0.5rem;
+height: 3rem;
+width: 10rem;
+
+}
+#dropdown:hover{
+  background-color: rgb(88, 143, 195);
+  }

@@ -8,6 +8,7 @@ import SettingsPage from '../src/Components/Pages/SettingsPage'
 import SendMessagePage from "./Components/Pages/SendMessagePage";
 import ContactPage from "./Components/Pages/ContactPage";
 import SearchPage from "./Components/Pages/SearchPage";
+import DropDownPage from "./Components/DropDownMenu/DropDownPage";
 
 const root = document.getElementById("root");
 
@@ -15,6 +16,7 @@ ReactDOM.createRoot(root).render(
   <BrowserRouter>
     <Routes>
       <Route path="/" element={<SideMenu />} />
+       <Route path="/dropdownpage" element={<DropDownPage/>} />
       <Route path="/homepage" element={<HomePage/>}></Route>
       <Route path="/sendmessage" element={<SendMessagePage/>}></Route>
       <Route path="/searchpage" element={<SearchPage/>}></Route>
